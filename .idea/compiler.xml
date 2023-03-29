@@ -9,8 +9,8 @@
         <module name="istack-design" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="istack-design" target="1.8" />
+    <bytecodeTargetLevel target="8">
+      <module name="istack-design" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
