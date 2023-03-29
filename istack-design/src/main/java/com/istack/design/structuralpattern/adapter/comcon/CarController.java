@@ -9,7 +9,4 @@ public abstract class CarController {
     public  abstract void phonate();//发出声影
     public abstract void twinkle();//灯光闪烁
 
-
-
-
 }
