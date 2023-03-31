@@ -8,11 +8,15 @@ public class PoliceCarAdapter extends CarController {
         policeLamp=new PoliceLamp();
         policeSound=new PoliceSound();
     }
+
+
     //发出警笛
     @Override
     public void phonate() {
       policeSound.alarmSound();
     }
+
+
     //警灯闪烁
     @Override
     public void twinkle() {
