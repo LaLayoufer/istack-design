@@ -7,12 +7,9 @@ package com.istack.design.structuralpattern.composite.common;
 public class Client {
     public static void main(String[] args) {
 
-
         Component component=new Composite();
         Leaf leaf=new Leaf();
         component.add(component);
-
-
 
     }
 }
